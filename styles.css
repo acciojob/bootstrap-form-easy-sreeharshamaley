@@ -1,2 +1,21 @@
-
+.invalid-feedback {
+    display: none; /* Hidden by default */
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545; /* Typically error messages are red */
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 /* Your CSS Code here. */
